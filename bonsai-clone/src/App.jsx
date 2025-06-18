@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import PricingPage from "./pages/PricingPage";
 import TemplatesPage from "./pages/TemplatesPage";
+import LoginPage from "./pages/LoginPage";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/" element={<Hero />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/templates" element={<TemplatesPage />} />
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
